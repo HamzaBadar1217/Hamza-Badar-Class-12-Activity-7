@@ -1,0 +1,119 @@
+body {
+  background-image: url("./Images/JavaScript.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container-fluid {
+  width: fit-content;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 1.6em;
+}
+
+.fitContent {
+  width: fit-content;
+  height: fit-content;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  border-radius: 20px;
+  background-color: white;
+}
+
+.styled-table {
+  border-collapse: collapse;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  min-width: 1000px;
+}
+
+.styled-table thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+  padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+  font-weight: bold;
+  color: #009879;
+}
+
+.styled-table tbody tr:nth-of-type(odd) {
+  background-color: white;
+}
+
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+tr:hover {
+  background-color: #f8f7f7;
+}
+
+.page-link {
+  color: #009879;
+}
+
+.form-select {
+  width: 80px;
+  height: 40px;
+  border: 2px solid #4ca392;
+}
+
+.page-link:hover {
+  background-color: #009879;
+  border: #009879;
+  outline: #009879;
+  color: #f3f3f3;
+}
+
+table tr:first-child th:first-child,
+table tr:first-child td:first-child {
+  border-top-left-radius: 20px;
+}
+
+table tr:first-child th:last-child,
+table tr:first-child td:last-child {
+  border-top-right-radius: 20px;
+}
+
+.pagination > li.active > a {
+  background-color: #009879;
+  border: 1px solid #009879;
+  color: #fff;
+}
+
+.countdown {
+  font-size: 1.5em;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 50px;
+}
+
+.countdown span {
+  color: #009879;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.footer-col {
+  background-color: #009879;
+  padding: 15px 30px;
+  border-radius: 15px;
+  width: 1000px;
+}
+
+.countdown {
+  color: rgb(187, 187, 187);
+}
